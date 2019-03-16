@@ -3,5 +3,5 @@ xmlns = "sap.m"
 xmlns:mvc = "sap.ui.core.mvc"
          >
 
-<Text text="Hello World"></Text>
+<Text text="Hello World from View"></Text>
 </mvc:View>

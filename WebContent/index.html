@@ -15,9 +15,12 @@
 		<script>
 			sap.ui.getCore().attachInit(
 		   function(){
-				   var name = prompt("Parameters","What is your name?");
-				   
+				  
+			   /* var name = prompt("Parameters","What is your name?");   
 				  new sap.m.Text({text: "Hello "+name}).placeAt("content");
+			   */
+			   
+			   sap.ui.xmlview({viewName : "FirstApp.Views.App"}).placeAt("content");
 			       });
 		</script>
 
